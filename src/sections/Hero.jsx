@@ -3,9 +3,9 @@ import Flower from "@/assets/flower.svg";
 
 export const Hero = () => {
   return (
-    <section className="px-8 overflow-x-clip">
-      <div className="relative flex md:justify-center items-center min-h-[300px]">
-        <div className="flex flex-col gap-3 max-w-[230px] md:max-w-[500px] sm:max-w-[300px]">
+    <section className="px-8">
+      <div className="flex flex-col sm:flex-row sm:justify-center items-center min-h-[300px]">
+        <div className="flex flex-col gap-3 sm:max-w-[500px]">
           <h1 className="uppercase text-2xl md:text-3xl">
             Discover <span className="text-[#CC8990]">rare plants</span> and{" "}
             <span className="text-[#CC8990]">plant breeding.</span>
@@ -16,13 +16,7 @@ export const Hero = () => {
             nec, ullamcorper ac, vestibulum in, elit.
           </p>
         </div>
-        <Image
-          src={Flower}
-          alt="Flower"
-          width={315}
-          height={296}
-          className="flower-img"
-        />
+        <Image src={Flower} alt="Flower" width={315} height={296} />
       </div>
     </section>
   );

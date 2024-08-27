@@ -14,12 +14,18 @@ section {
   margin-top: 2.5rem;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .flower-img {
     position: absolute;
     top: 50%;
     left: 70%;
     transform: translateY(-110px);
+  }
+} */
+
+@media screen and (min-width: 820px) {
+  .flower-img {
+    display: block;
   }
 }
 

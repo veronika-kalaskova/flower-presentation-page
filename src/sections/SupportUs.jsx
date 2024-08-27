@@ -1,6 +1,10 @@
+import Image from "next/image";
+import LeftFlower from "@/assets/flower-donate-l.svg";
+import RightFlower from "@/assets/flower-donate-r.svg";
+
 export const SupportUs = () => {
   return (
-    <section className="bg-white px-6 py-9">
+    <section className="bg-white pt-9 relative overflow-x-clip min-h-[450px]">
       <div className="container">
         <div className="flex justify-center">
           <h2 className="tag bg-[#FCE9EC]">Support Us</h2>
@@ -12,10 +16,26 @@ export const SupportUs = () => {
             <div className="price-tag">15€</div>
             <div className="price-tag">20€</div>
           </div>
-          <input type="text" placeholder="Type your donate €" className="price-tag w-full" />
+          <input
+            type="text"
+            placeholder="Type your donate €"
+            className="price-tag w-full"
+          />
           <button className="big-btn">Continue</button>
         </div>
       </div>
+      <Image
+        src={LeftFlower}
+        alt="Flower"
+        width={200}
+        className="hidden flower-img mr-2 absolute bottom-0 left-0"
+      />
+      <Image
+        src={RightFlower}
+        alt="Flower"
+        width={200}
+        className="hidden flower-img ml-2 absolute bottom-0 right-0"
+      />
     </section>
   );
 };
