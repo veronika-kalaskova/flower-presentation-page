@@ -10,6 +10,10 @@ body {
   background-color: #fbf1f2;
 }
 
+section {
+  margin-top: 2.5rem;
+}
+
 @media screen and (max-width: 767px) {
   .flower-img {
     position: absolute;
@@ -28,5 +32,25 @@ body {
 @layer components {
   .tag {
     @apply bg-[#f5b3bf64] py-1 px-2 rounded-lg inline-flex
+  }
+
+  .description {
+    @apply text-sm text-[#939393]
+  }
+
+  .btn {
+    @apply bg-[#FCE9EC] py-1 px-2 rounded-lg inline-flex
+  }
+
+  .big-btn {
+    @apply w-full bg-[#E8ADB3] rounded-lg py-4 px-2 text-white uppercase text-sm
+  }
+
+  .container {
+    @apply px-10 max-w-[1200px] mx-auto
+  }
+
+  .price-tag {
+    @apply py-3 px-4 bg-white rounded-lg shadow-md
   }
 }

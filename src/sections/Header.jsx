@@ -16,7 +16,6 @@ export const Header = () => {
         <nav className="flex gap-[60px] justify-center w-full items-center">
           <a href="#" className="tag">Home</a>
           <a href="#">Rare plants</a>
-          <a href="#">Plant breeding</a>
           <a href="#">About us</a>
         </nav>
       </div>
