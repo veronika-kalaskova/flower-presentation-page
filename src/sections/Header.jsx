@@ -11,10 +11,10 @@ export const Header = () => {
         <Image src={Logo} alt="Logo" width={132} height={37} />
         <Image src={Menu} alt="Menu" width={23} height={15} />
       </div>
-      <div className="hidden md:flex">
+      <div className="hidden md:flex justify-around">
         <Image src={Logo} alt="Logo" width={132} height={37} />
-        <nav className="flex gap-[60px] justify-center w-full items-center">
-          <a href="#" className="tag">Home</a>
+        <nav className="flex gap-10 items-center">
+          <a href="#" className="tag text-[16px]">Home</a>
           <a href="#">Rare plants</a>
           <a href="#">About us</a>
         </nav>

@@ -37,7 +37,7 @@ section {
 
 @layer components {
   .tag {
-    @apply bg-[#f5b3bf64] py-1 px-2 rounded-lg inline-flex
+    @apply bg-[#f5b3bf64] py-1 px-2 rounded-lg inline-flex text-xl w-fit 
   }
 
   .description {
