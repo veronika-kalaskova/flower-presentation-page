@@ -6,9 +6,9 @@ export const Hero = () => {
     <section className="px-8">
       <div className="flex flex-col sm:flex-row sm:justify-center items-center min-h-[300px]">
         <div className="flex flex-col gap-3 sm:max-w-[500px]">
-          <h1 className="uppercase text-balance text-3xl md:text-4xl">
-            Discover <span className="text-[#CC8990]">rare plants</span> and{" "}
-            <span className="text-[#CC8990]">plant breeding.</span>
+          <h1 className="title">
+            Discover <span className="text-color">rare plants</span> and
+            <span className="text-color">plant breeding.</span>
           </h1>
           <p className="description">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at

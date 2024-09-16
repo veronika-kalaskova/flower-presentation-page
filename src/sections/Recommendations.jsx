@@ -10,6 +10,7 @@ export const Recommendations = () => {
         <h2 className="tag">Our recommendation</h2>
         </div> 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-3">
+          {/* Duplicate three times */}
           {[...new Array(3)].fill(0).map((_, index) => (
             <React.Fragment key={index}>
               <div className="flex flex-col gap-3 items-center justify-center bg-white py-5 px-4 mt-5 rounded-lg shadow-md max-w-[330px]">
