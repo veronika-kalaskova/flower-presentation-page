@@ -6,12 +6,10 @@ import { SupportUs } from "@/sections/SupportUs";
 
 export default function Home() {
   return (
-    <>
-      <Header />
+    <main>
       <Hero />
       <Recommendations />
       <SupportUs />
-      <Footer />
-    </>
+    </main>
   );
 }
