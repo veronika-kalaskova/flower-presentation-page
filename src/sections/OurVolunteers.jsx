@@ -15,7 +15,7 @@ export default function OurVolunteers() {
                 <Image
                   src={Volunteer}
                   alt="Volunteer"
-                  className="rounded-xl"
+                  className="rounded-full aspect-square object-cover"
                   quality={100}
                   width={80}
                 />

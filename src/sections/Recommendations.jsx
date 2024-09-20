@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CardImage from "../assets/card-image.svg";
+import CardImage from "../assets/card-image.jpg";
 import React from "react";
 
 export const Recommendations = () => {

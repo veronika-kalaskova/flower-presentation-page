@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import AboutUsImage from "../assets/about-us.png";
+import AboutUsImage from "../assets/about-us.jpg";
 
 export default function AboutUs() {
   return (

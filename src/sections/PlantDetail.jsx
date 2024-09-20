@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import Flower from "../assets/card-image.svg";
+import Flower from "../assets/card-image.jpg";
 
 export default function PlantDetail() {
   return (
-    <section className="px-8 mb-10">
-      <div className="bg-white py-5 px-4 rounded-xl shadow-md max-w-[1200px] mx-auto">
+    <section className="mb-10 px-8">
+      <div className="mx-auto max-w-[1200px] rounded-xl bg-white px-4 py-5 shadow-md">
         <h3 className="tag">Titan Arum (Amorphophallus titanum)</h3>
-        <div className="mt-4 flex flex-col md:flex-row gap-4">
-          <Image src={Flower} className="h-auto w-auto object-cover rounded-xl"/>
-          <div className="text-[18px] flex flex-col gap-4">
+        <div className="mt-4 flex flex-col gap-4 md:flex-row">
+          <Image src={Flower} className="rounded-xl object-cover" />
+          <div className="flex flex-col gap-4 text-[18px]">
             <div>
               <span className="text-color">Species: </span>Amorphophallus
               titanum
@@ -31,7 +31,7 @@ export default function PlantDetail() {
               odor resembling rotting flesh, which attracts pollinators such as
               carrion beetles and flies.
             </p>
-            <button className="big-btn text-xl">
+            <button className="big-btn mt-auto text-xl">
               Help us to save this plant
             </button>
           </div>
