@@ -45,7 +45,7 @@ section {
   }
 
   .tag {
-    @apply bg-[#f5b3bf64] py-1 px-2 text-balance rounded-lg inline-flex text-xl w-fit 
+    @apply bg-[#f5b3bf64] py-1 px-2 text-balance rounded-xl inline-flex text-xl w-fit 
   }
 
   .description {
@@ -53,11 +53,11 @@ section {
   }
 
   .btn {
-    @apply bg-[#FCE9EC] py-1 px-2 rounded-lg inline-flex
+    @apply bg-[#FCE9EC] py-1 px-2 rounded-xl inline-flex
   }
 
   .big-btn {
-    @apply w-full bg-[#E8ADB3] rounded-lg py-4 px-2 text-white uppercase text-sm
+    @apply w-full bg-[#E8ADB3] rounded-xl py-4 px-2 text-white uppercase text-sm
   }
 
   .container {
@@ -65,6 +65,6 @@ section {
   }
 
   .price-tag {
-    @apply py-3 px-4 bg-white rounded-lg shadow-md
+    @apply py-3 px-4 bg-white rounded-xl shadow-md
   }
 }

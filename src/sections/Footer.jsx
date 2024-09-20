@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import Logo from "@/assets/logo.svg";
-import Map from "@/assets/map.svg";
-import Email from "@/assets/email.svg";
-import Phone from "@/assets/phone.svg";
+import Logo from "../assets/logo.svg";
+import Map from "../assets/map.svg";
+import Email from "../assets/email.svg";
+import Phone from "../assets/phone.svg";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -43,7 +43,7 @@ export const Footer = () => {
               src={Phone}
               width={40}
               height={50}
-              className="bg-[#f5b3bf64] py-1 px-2 rounded-lg inline-flex"
+              className="bg-[#f5b3bf64] py-1 px-2 rounded-xl inline-flex"
             />
             <span className="ml-3">777 530 430</span>
           </div>
@@ -52,7 +52,7 @@ export const Footer = () => {
               src={Email}
               width={40}
               height={60}
-              className="bg-[#f5b3bf64] py-1 px-2 rounded-lg inline-flex min-h-[36px]"
+              className="bg-[#f5b3bf64] py-1 px-2 rounded-xl inline-flex min-h-[36px]"
             />
             <span className="ml-3">flowers@gmail.com</span>
           </div>
@@ -61,7 +61,7 @@ export const Footer = () => {
               src={Map}
               width={40}
               height={50}
-              className="bg-[#f5b3bf64] py-1 px-2 rounded-lg inline-flex"
+              className="bg-[#f5b3bf64] py-1 px-2 rounded-xl inline-flex"
             />
             <span className="ml-3">Springfield, IL 62704</span>
           </div>

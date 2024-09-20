@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Flower from "@/assets/flower.svg";
+import Flower from "../assets/flower.svg";
 
 export const Hero = () => {
   return (
@@ -8,7 +8,7 @@ export const Hero = () => {
         <div className="flex flex-col gap-3 sm:max-w-[500px]">
           <h1 className="title">
             Discover <span className="text-color">rare plants</span> and
-            <span className="text-color">plant breeding.</span>
+            <span className="text-color"> plant breeding.</span>
           </h1>
           <p className="description">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at

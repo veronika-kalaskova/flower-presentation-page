@@ -1,6 +1,6 @@
 import "./globals.css";
-import { Header } from "@/sections/Header";
-import { Footer } from "@/sections/Footer";
+import { Header } from "../sections/Header";
+import { Footer } from "../sections/Footer";
 
 export const metadata = {
   title: "Flowers",

@@ -1,30 +1,31 @@
-import Image from "next/image";
-import CardImage from "../assets/card-image.svg";
 import React from "react";
+import Image from "next/image";
+import Volunteer from "../assets/volunteer.png";
 
-export const Recommendations = () => {
+export default function OurVolunteers() {
   return (
-    <section>
+    <section className="mb-10">
       <div className="container">
-        <h2 className="tag">Our recommendation</h2>
+        <h2 className="tag">Our volunteers</h2>
         <div className="flex flex-col items-center justify-between gap-3 sm:flex-row">
           {/* Duplicate three times */}
           {[...new Array(3)].fill(0).map((_, index) => (
             <React.Fragment key={index}>
-              <div className="mt-5 flex w-full flex-col items-center justify-center gap-3 rounded-xl bg-white px-4 py-5 shadow-md sm:max-w-[330px]">
+              <div className="mt-5 flex w-full sm:max-w-[330px] flex-col items-center justify-center gap-3 rounded-xl bg-white px-4 py-5 shadow-md">
                 <Image
-                  src={CardImage}
-                  alt="Card image"
+                  src={Volunteer}
+                  alt="Volunteer"
                   className="rounded-xl"
+                  quality={100}
+                  width={80}
                 />
                 <h2 className="text-center text-xl text-[#CD8990]">
-                  Celestial Blossom
+                  Name Surname
                 </h2>
                 <p className="description text-center">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Nullam at arcu a est sollicitudin euismod.
+                  A treasure trove for plant enthusiasts!
                 </p>
-                <button className="btn">Learn more</button>
+                <button className="btn">Contact me</button>
               </div>
             </React.Fragment>
           ))}
@@ -32,4 +33,4 @@ export const Recommendations = () => {
       </div>
     </section>
   );
-};
+}

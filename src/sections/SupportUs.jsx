@@ -1,6 +1,6 @@
 import Image from "next/image";
-import LeftFlower from "@/assets/flower-donate-l.svg";
-import RightFlower from "@/assets/flower-donate-r.svg";
+import LeftFlower from "../assets/flower-donate-l.svg";
+import RightFlower from "../assets/flower-donate-r.svg";
 
 export const SupportUs = () => {
   return (
@@ -9,7 +9,7 @@ export const SupportUs = () => {
         <div className="flex justify-center">
           <h2 className="tag bg-[#FCE9EC]">Support Us</h2>
         </div>
-        <div className="mt-5 bg-[#FCE9EC] py-6 px-6 rounded-lg text-center flex flex-col gap-4 max-w-[400px] mx-auto">
+        <div className="mt-5 bg-[#FCE9EC] py-6 px-6 rounded-xl text-center flex flex-col gap-4 max-w-[400px] mx-auto">
           <h3>Donate us to keep the rare plants alive!</h3>
           <div className="flex gap-3 justify-center flex-wrap">
             <div className="price-tag text-[#CD8990]">10€</div>
@@ -21,7 +21,7 @@ export const SupportUs = () => {
             placeholder="Type your donate €"
             className="price-tag w-full"
           />
-          <button className="big-btn">Continue</button>
+          <button className="big-btn text-xl">Continue</button>
         </div>
       </div>
       <Image

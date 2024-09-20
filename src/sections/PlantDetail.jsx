@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Flower from "@/assets/card-image.svg";
+import Flower from "../assets/card-image.svg";
 
 export default function PlantDetail() {
   return (
     <section className="px-8 mb-10">
-      <div className="bg-white py-5 px-4 mt-5 md:mx-10 rounded-lg shadow-md">
+      <div className="bg-white py-5 px-4 rounded-xl shadow-md max-w-[1200px] mx-auto">
         <h3 className="tag">Titan Arum (Amorphophallus titanum)</h3>
         <div className="mt-4 flex flex-col md:flex-row gap-4">
           <Image src={Flower} className="h-auto w-auto object-cover rounded-xl"/>
