@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Flower from "../assets/flower.svg";
+import Flower from "../assets/flower.png";
 
 export const Hero = () => {
   return (
